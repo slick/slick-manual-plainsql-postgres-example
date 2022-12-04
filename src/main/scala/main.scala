@@ -6,7 +6,7 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration.Duration
 
 //#imports
-import slick.jdbc.H2Profile.api._
+import slick.jdbc.PostgresProfile.api._
 //#imports
 import slick.jdbc.GetResult
 import slick.jdbc.JdbcProfile
